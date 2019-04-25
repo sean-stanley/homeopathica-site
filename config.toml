@@ -1,100 +1,63 @@
-baseurl = "https://sean-stanley.gitlab.io/homeopathica/"
-contentdir    = "content"
-layoutdir     = "layouts"
-publishdir    = "public"
-title = "Homeopathica"
-canonifyurls  = true
-
 DefaultContentLanguage = "en"
-theme = "universal-homeopathica"
-metaDataFormat = "yaml"
-pygmentsUseClasses = true
-pygmentCodeFences = true
-#disqusShortname = "XXX"
-#googleAnalytics = "XXX"
-#
+baseurl = "https://sean-stanley.gitlab.io/homeopathica/"
+canonifyurls = true
 cloudinary_url = "https://res.cloudinary.com/maplekiwi/image/upload"
-
-
-[Params]
-  style = "red"
-  subtitle = "Homeopathica"
-  logo = "img/avatar-icon.png"
-  favicon = "img/favicon.ico"
-  dateFormat = "January 2, 2006"
-  commit = false
-  rss = true
-  comments = true
-  cloudinary_url = "https://res.cloudinary.com/maplekiwi/image/upload"
-  copyright = "Copyright (c) 2005 - 2019, Homeopathcia; all rights reserved."
-#  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
-
-#[[Params.bigimg]]
-#  src = "img/triangle.jpg"
-#  desc = "Triangle"
-#[[Params.bigimg]]
-#  src = "img/sphere.jpg"
-#  desc = "Sphere"
-#[[Params.bigimg]]
-#  src = "img/hexagon.jpg"
-#  desc = "Hexagon"
-
+contentdir = "content"
+layoutdir = "layouts"
+metaDataFormat = "yaml"
+publishdir = "public"
+pygmentCodeFences = true
+pygmentsUseClasses = true
+theme = "universal-homeopathica"
+title = "Homeopathica"
 [Author]
-  name = "Some Person"
-  email = "youremail@domain.com"
-  facebook = "username"
-  googleplus = "+username" # or xxxxxxxxxxxxxxxxxxxxx
-  gitlab = "username"
-  github = "username"
-  twitter = "username"
-  reddit = "username"
-  linkedin = "username"
-  xing = "username"
-  stackoverflow = "users/XXXXXXX/username"
-  snapchat = "username"
-  instagram = "username"
-  youtube = "user/username" # or channel/channelname
-  soundcloud = "username"
-  spotify = "username"
-  bandcamp = "username"
-  itchio = "username"
-  keybase = "username"
-
-
+bandcamp = "username"
+email = "youremail@domain.com"
+facebook = "username"
+github = "username"
+gitlab = "username"
+googleplus = "+username"
+instagram = "username"
+itchio = "username"
+keybase = "username"
+linkedin = "username"
+name = "Some Person"
+reddit = "username"
+snapchat = "username"
+soundcloud = "username"
+spotify = "username"
+stackoverflow = "users/XXXXXXX/username"
+twitter = "username"
+xing = "username"
+youtube = "user/username"
+[Params]
+cloudinary_url = "https://res.cloudinary.com/maplekiwi/image/upload"
+comments = true
+commit = false
+copyright = "Copyright (c) 2005 - 2019, Homeopathcia; all rights reserved."
+dateFormat = "January 2, 2006"
+favicon = "img/favicon.ico"
+logo = "img/avatar-icon.png"
+rss = true
+style = "red"
+subtitle = "Homeopathica"
 [[menu.main]]
-    name = "Blog"
-    url = ""
-    weight = 1
-
+name = "Contact"
+url = "/contact"
+weight = 5
 [[menu.main]]
-    name = "About"
-    url = "page/about/"
-    weight = 3
-
+name = "Credentials"
+weight = 4
 [[menu.main]]
-    identifier = "samples"
-    name = "Samples"
-    weight = 2
-
+name = "Big Image Sample"
+parent = "samples"
+url = "post/2017-03-07-bigimg-sample"
+weight = 1
 [[menu.main]]
-    parent = "samples"
-    name = "Big Image Sample"
-    url = "post/2017-03-07-bigimg-sample"
-    weight = 1
-
+name = "About Homeopathy"
+url = "page/about/"
+weight = 3
 [[menu.main]]
-    parent = "samples"
-    name = "Math Sample"
-    url = "post/2017-03-05-math-sample"
-    weight = 2
-
-[[menu.main]]
-    parent = "samples"
-    name = "Code Sample"
-    url = "post/2016-03-08-code-sample"
-    weight = 3
-
-[[menu.main]]
-    name = "Tags"
-    url = "tags"
-    weight = 3
+name = "Health Advice"
+url = "/articles"
+weight = 2
