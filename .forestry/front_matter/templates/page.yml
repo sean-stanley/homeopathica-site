@@ -25,6 +25,7 @@ fields:
   label: YouTube link
   description: Get this from the "share" button on the YouTube page
 pages:
+- content/about-homeopathy.md
 - content/post/lifestyle.md
 - content/post/eating.md
 - content/post/food.md
