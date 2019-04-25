@@ -4,6 +4,11 @@ heading: Appetite and Eating Habits
 banner: ''
 youtube_link: ''
 date: 2019-04-25 04:18:33 +0000
+menu:
+  main:
+    name: Appetite and Eating Habits
+    weight: 2
+    parent: Health Advice
 
 ---
 # Appetite and Eating Habits

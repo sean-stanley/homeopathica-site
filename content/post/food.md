@@ -4,6 +4,11 @@ heading: Food and Dietary Advice
 banner: ''
 youtube_link: ''
 date: 2019-04-25 04:15:21 +0000
+menu:
+  main:
+    name: Food and Dietary Advice
+    weight: 1
+    parent: Health Advice
 
 ---
 # Food and Dietary Advice

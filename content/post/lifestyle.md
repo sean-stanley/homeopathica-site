@@ -4,6 +4,11 @@ heading: Lifestyle Advice
 banner: ''
 youtube_link: ''
 date: 2019-04-25 04:23:13 +0000
+menu:
+  main:
+    name: Lifestyle Advice
+    weight: 3
+    parent: Health Advice
 
 ---
 # Lifestyle Advice

@@ -1,4 +1,7 @@
 +++
+[menu.main]
+name = "Home"
+weight = 1
 
 +++
 For over a decade Veronika Zhmurko has been using her substantial skills in homeopathic medicine to successfully treat people of all ages. Working out of [Thornhill Naturopathic Health Clinic](http://www.thornhillnaturopathic.ca/) in Toronto, she has brought relief to those suffering from both acute and chronic illnesses.
