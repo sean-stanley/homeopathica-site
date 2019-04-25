@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+  {{ partial "head.html" . }}
+
+  <body>
+
+    <div id="all">
+
+        <header>
+
+          {{ partial "nav.html" . }}
+
+        </header>
+
+        {{ partial "breadcrumbs.html" . }}
+
+        <div id="content">
+            {{ if isset .Params "id" }}
+
+              {{ partial .Params.id . }}
+
+            {{ else }}
+
+            <div class="container">
+                <div class="row">
+                  <div class="col-xs-12 col-sm-8 col-md-6">
+                    {{ partial "video" .}}
+                  </div>
+                </div>
+                <div class="row">
+
+                    <div class="col-md-12">
+                        <div style="margin-bottom: 96px;">
+
+                          {{ range .Params.page_content }}
+                              {{ if eq "content" .template }}
+                                  {{ partial "blocks/content" . }}
+                              {{ end }}
+                              {{ if eq "promotion" .template }}
+                                  {{ partial "blocks/promotion" . }}
+                              {{ end }}
+                              {{ if eq "staff" .template }}
+                                  {{ partial "blocks/staff" . }}
+                              {{ end }}
+                          {{ end }}
+                          {{ .Content }}
+                        </div>
+
+                    </div>
+
+                </div>
+                <!-- /.row -->
+
+            </div>
+            <!-- /.container -->
+
+            {{ end }}
+        </div>
+        <!-- /#content -->
+
+        {{ partial "footer.html" . }}
+
+    </div>
+    <!-- /#all -->
+
+    {{ partial "scripts.html" . }}
+
+  </body>
+</html>

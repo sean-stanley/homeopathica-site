@@ -1,0 +1,31 @@
+{{ if isset .Params "banner" }}
+{{ if gt (len .Params.banner) 0 }}
+  <div id="heading-breadcrumbs" style="
+    padding-top: 350px;
+    padding-bottom: 0;
+    background:
+    linear-gradient(to top, rgba(21, 39, 68,.3),rgba(21, 39, 68,.2) 33%, rgba(0,0,0,0)),
+    url('{{ $.Site.Params.cloudinary_url }}/c_scale,w_2000{{ .Params.banner }}');
+    background-size: cover;
+    background-position: bottom;
+    ">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 style="color: rgba(255,255,255,0.89);">{{ .Params.heading }}</h1>
+            </div>
+        </div>
+    </div>
+  </div>
+{{ else }}
+<div id="heading-breadcrumbs">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>{{ .Params.heading }}</h1>
+            </div>
+        </div>
+    </div>
+</div>
+{{ end }}
+{{ end }}

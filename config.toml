@@ -6,7 +6,7 @@ title = "Homeopathica"
 canonifyurls  = true
 
 DefaultContentLanguage = "en"
-theme = "universal"
+theme = "universal-homeopathica"
 metaDataFormat = "yaml"
 pygmentsUseClasses = true
 pygmentCodeFences = true
