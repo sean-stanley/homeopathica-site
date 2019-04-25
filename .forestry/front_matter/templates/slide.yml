@@ -1,0 +1,32 @@
+---
+label: Slide
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+  description: "(optional)"
+- type: textarea
+  name: description
+  label: description
+  config:
+    wysiwyg: true
+    schema:
+      format: html-blocks
+- type: file
+  name: image
+  label: image
+  config:
+    maxSize: '25'
+- type: number
+  name: weight
+  label: Slide Order
+  description: 1 goes first etc,
+  config:
+    min: '1'
+    step: '1'
+    required: true
+pages:
+- data/slides/gas-appliance-specialists-1.yaml
+- data/slides/serving-auckland.yaml
+- data/slides/gas-appliance-specialists.yaml

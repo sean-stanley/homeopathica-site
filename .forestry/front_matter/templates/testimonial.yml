@@ -1,0 +1,27 @@
+---
+label: Testimonial
+hide_body: true
+fields:
+- type: textarea
+  name: text
+  label: Testimonial
+  config:
+    required: true
+- type: text
+  name: name
+  label: name
+- type: text
+  name: position
+  label: Position
+- type: file
+  name: avatar
+  label: Personal photo
+  config:
+    maxSize: '25'
+pages:
+- data/testimonials/Peter-D.yaml
+- data/testimonials/robert-p.yaml
+- data/testimonials/nicola-t.yaml
+- data/testimonials/jo-s.yaml
+- data/testimonials/carolyn-j.yaml
+- data/testimonials/Stephen-E.yaml

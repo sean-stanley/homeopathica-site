@@ -1,0 +1,28 @@
+---
+label: Page
+hide_body: false
+display_field: label
+fields:
+- type: text
+  label: Page Name
+  name: title
+  description: ''
+  config:
+    required: true
+- type: text
+  name: heading
+  label: Heading
+  description: appears in a banner at the top of the page
+- type: file
+  name: banner
+  label: Banner
+  description: banner image for the top of the website should be at least 1500px wide
+    and 500px tall
+  config:
+    maxSize: '25'
+- type: text
+  name: youtube_link
+  label: YouTube link
+  description: Get this from the "share" button on the YouTube page
+pages:
+- content/Services.md

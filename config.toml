@@ -1,26 +1,32 @@
-baseurl = "https://pages.gitlab.io/hugo/"
+baseurl = "https://sean-stanley.gitlab.io/homeopathica/"
 contentdir    = "content"
 layoutdir     = "layouts"
 publishdir    = "public"
-title = "Beautiful Hugo"
+title = "Homeopathica"
 canonifyurls  = true
 
 DefaultContentLanguage = "en"
-theme = "beautifulhugo"
+theme = "universal"
 metaDataFormat = "yaml"
 pygmentsUseClasses = true
 pygmentCodeFences = true
 #disqusShortname = "XXX"
 #googleAnalytics = "XXX"
+#
+cloudinary_url = "https://res.cloudinary.com/maplekiwi/image/upload"
+
 
 [Params]
-  subtitle = "Hugo Blog Template for GitLab Pages"
+  style = "red"
+  subtitle = "Homeopathica"
   logo = "img/avatar-icon.png"
   favicon = "img/favicon.ico"
   dateFormat = "January 2, 2006"
   commit = false
   rss = true
   comments = true
+  cloudinary_url = "https://res.cloudinary.com/maplekiwi/image/upload"
+  copyright = "Copyright (c) 2005 - 2019, Homeopathcia; all rights reserved."
 #  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
 
 #[[Params.bigimg]]

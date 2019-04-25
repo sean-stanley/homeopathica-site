@@ -1,0 +1,22 @@
+---
+label: Features
+hide_body: true
+display_field: name
+fields:
+- type: text
+  label: name
+  name: name
+- type: text
+  name: description
+  label: description
+- type: number
+  name: weight
+  label: order
+- type: number
+  name: value
+  label: value
+pages:
+- data/features/Excellence.yaml
+- data/features/overall.yaml
+- data/features/friendliness.yaml
+- data/features/on-time.yaml
