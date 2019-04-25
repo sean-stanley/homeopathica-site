@@ -6,3 +6,7 @@ description: <p>Homeopathy is a science-based system of medicine based on the di
 image: ''
 weight: 1
 date: 2019-04-25 04:38:08 +0000
+menu:
+  main:
+    name: About Homeopathy
+    weight: 3
