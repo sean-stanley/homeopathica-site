@@ -26,3 +26,8 @@ fields:
     min: '1'
     step: '1'
     required: true
+pages:
+- data/slides/contact-me-for-an-appointment.yaml
+- data/slides/veronika-s-credentials.yaml
+- data/slides/domestic-medicine.yaml
+- data/slides/about-homeopathy.yaml
