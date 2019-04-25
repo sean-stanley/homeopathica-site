@@ -27,5 +27,6 @@ fields:
     step: '1'
     required: true
 pages:
+- data/slides/veronika-s-credentials.yaml
 - data/slides/domestic-medicine.yaml
 - data/slides/about-homeopathy.yaml
