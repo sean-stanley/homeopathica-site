@@ -24,5 +24,3 @@ fields:
   name: youtube_link
   label: YouTube link
   description: Get this from the "share" button on the YouTube page
-pages:
-- content/Services.md

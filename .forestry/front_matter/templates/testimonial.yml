@@ -18,10 +18,3 @@ fields:
   label: Personal photo
   config:
     maxSize: '25'
-pages:
-- data/testimonials/Peter-D.yaml
-- data/testimonials/robert-p.yaml
-- data/testimonials/nicola-t.yaml
-- data/testimonials/jo-s.yaml
-- data/testimonials/carolyn-j.yaml
-- data/testimonials/Stephen-E.yaml

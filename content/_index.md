@@ -1,9 +1,6 @@
-## Front Page Content
++++
 
-This website is powered by [GitLab Pages](https://about.gitlab.com/features/pages/)
-/ [Hugo](https://gohugo.io) and can be built in under 1 minute.
-Literally. It uses the `beautifulhugo` theme which supports content on your front page.
-Edit `/content/_index.md` to change what appears here. Delete `/content/_index.md`
-if you don't want any content here.
++++
+For over a decade Veronika Zhmurko has been using her substantial skills in homeopathic medicine to successfully treat people of all ages. Working out of [Thornhill Naturopathic Health Clinic](http://www.thornhillnaturopathic.ca/) in Toronto, she has brought relief to those suffering from both acute and chronic illnesses.
 
-Head over to the [GitLab project](https://gitlab.com/pages/hugo) to get started.
+Veronika is a lecturer for the [Canadian College of Homeopathic Medicine](http://www.homeopathycanada.com/) and registered with the [College of Homeopaths of Ontario](http://www.collegeofhomeopaths.on.ca/)

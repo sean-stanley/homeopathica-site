@@ -15,8 +15,3 @@ fields:
 - type: number
   name: value
   label: value
-pages:
-- data/features/Excellence.yaml
-- data/features/overall.yaml
-- data/features/friendliness.yaml
-- data/features/on-time.yaml
