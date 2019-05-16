@@ -3,6 +3,12 @@ label: Features
 hide_body: true
 display_field: name
 fields:
+- name: icon
+  type: text
+  config:
+    required: false
+  label: icon
+  description: look up icons from fontawesome.com
 - type: text
   label: name
   name: name
@@ -12,6 +18,3 @@ fields:
 - type: number
   name: weight
   label: order
-- type: number
-  name: value
-  label: value
