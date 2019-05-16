@@ -26,7 +26,8 @@ fields:
   description: Get this from the "share" button on the YouTube page
 pages:
 - content/post/lifestyle.md
-- content/credentials.md
 - content/about-homeopathy.md
 - content/post/eating.md
+- content/credentials.md
+- content/legal.md
 - content/post/food.md
