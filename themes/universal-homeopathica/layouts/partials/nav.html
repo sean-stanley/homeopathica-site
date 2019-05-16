@@ -1,15 +1,20 @@
-<div class="navbar-affixed-top" data-spy="affix" data-offset-top="200">
+<div class="navbar-affixed-top" data-spy="affix" data-offset-top="200" style="width: 100%;
+    z-index: 99;">
 
     <div class="navbar navbar-default yamm" role="navigation" id="navbar">
 
-        <div class="container-fluid">
+        <div class="container">
             <div class="navbar-header">
+              <h1 style="margin: 0">
                 <a class="navbar-brand home" href="{{ .Site.BaseURL }}">
 
-                    <img height="70" src="{{ $.Site.Params.cloudinary_url }}{{ .Site.Params.logo_small }}" alt="{{ .Title }} logo" class="visible-xs visible-sm">
-                    <img height="58" src="{{ $.Site.Params.cloudinary_url }}{{ .Site.Params.logo_small }}" alt="{{ .Title }} logo" class="hidden-xs hidden-sm hidden-md" style="padding-left: 24px">
+                    <img height="50" src="{{ $.Site.Params.logo }}" alt="{{ .Title }} logo" style="display: inline">
+
                     <span class="sr-only">{{ .Title }} - {{ i18n "navHome" }}</span>
+                    <span style="font-size: 1.5rem; margin-left: 12px">{{ $.Site.Title }}</span>
                 </a>
+              </h1>
+
 
                 <div class="navbar-buttons">
                     <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">

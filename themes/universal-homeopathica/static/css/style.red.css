@@ -3,7 +3,7 @@
 ==================================================================================
 ==================================================================================
 
-Universal Template 
+Universal Template
 
 https://bootstrapious.com/p/universal-business-e-commerce-template
 
@@ -811,7 +811,7 @@ header.nav-holder.sticky {
   #navbar .navbar-collapse {
     max-height: 600px;
     overflow-y: auto;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
   }
   #navbar .navbar-nav > li > a {
     padding: 0 10px;
@@ -3016,7 +3016,7 @@ STYLE SWITCHER FOR DEMO
 }
 
 /*
- * 3. TYPE  
+ * 3. TYPE
  */
 body {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
