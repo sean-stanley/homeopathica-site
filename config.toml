@@ -43,7 +43,7 @@ name = "Credentials"
 weight = 4
 [[menu.main]]
 name = "About Homeopathy"
-url = "/about/"
+url = "/about-homeopathy/"
 weight = 3
 [[menu.main]]
 name = "Health Advice"

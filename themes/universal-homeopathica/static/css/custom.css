@@ -1,8 +1,30 @@
 /* your styles go here */
 
+/* theme colouring */
+a {
+  color: #ED872B;
+}
+
+a:hover {
+  color: #AB611F;
+}
+
+#navbar .navbar-nav > li > a:focus {
+    background: #ED872B !important;
+    border-color: #AB611F !important;
+}
+
+#navbar .navbar-nav > li.active > a {
+    background: #ED872B !important;
+    border-color: #AB611F !important;
+}
+
+/* end theme colouring */
+
 @media (max-width: 767px) {
   .navbar {
     min-height: 90px;
+    border-radius: 0 0 4px 4px;
   }
 }
 
@@ -44,6 +66,10 @@ button.navbar-toggle.btn-template-main {
   margin-left: 24px;
 }
 
+.dropdown-menu>li>a {
+  padding: 8px 24px;
+}
+
 
 /* flex row */
 .flex-row {
@@ -59,13 +85,25 @@ button.navbar-toggle.btn-template-main {
   flex-grow: 0;
 }
 
+#navbar .navbar-nav > li > a:hover {
+    background: rgba(237, 135, 43, 0.5);
+    border-color: rgba(237, 135, 43, 0.8);
+}
+
 @media (max-width: 767px) {
   .navbar {
     min-height: 90px;
+    border-radius: 0 0 4px 4px;
   }
   .flex-xs-100 {
     flex: 100%;
     flex-grow: 1;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    border-radius: 0 0 8px 8px;
   }
 }
 
@@ -121,8 +159,8 @@ button.navbar-toggle.btn-template-main {
   height: 550px;
 }
 
-.mask-primary {
-  background: #ED872B;
+.dark-mask.mask-primary, .mask-primary {
+  background: #ED872B!important;
 }
 
 .home-carousel a {
@@ -135,7 +173,7 @@ button.navbar-toggle.btn-template-main {
 }
 
 .features .icon {
-  font-size: 3rem;
+  font-size: 3.5rem;
 }
 
 .features .box-simple p {
