@@ -19,6 +19,27 @@ a:hover {
     border-color: #AB611F !important;
 }
 
+.heading h1:after, .panel-heading h1:after, .heading h2:after, .panel-heading h2:after, .heading h3:after, .panel-heading h3:after, .heading h4:after, .panel-heading h4:after, .heading h5:after, .panel-heading h5:after, .heading h6:after, .panel-heading h6:after {
+    content: " ";
+    display: block;
+    width: 100px;
+    height: 2px;
+    margin-top: .6rem;
+    background: #ED872B;
+}
+
+.btn-template-main, .btn-primary {
+    background: #ED872B;
+    border: 1px solid #ED872B !important;
+}
+
+.btn-template-main:hover, .btn-template-main:focus, .btn-primary:hover, .btn-primary:focus {
+    background: #ED872B;
+    border-color: #ED872B !important;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active { background: #D47926; border-color: #D47926; }
+
 /* end theme colouring */
 
 @media (max-width: 767px) {
@@ -170,6 +191,11 @@ button.navbar-toggle.btn-template-main {
 
 .owl-carousel .owl-dots .owl-dot span {
   background: rgba(0,0,0, 0.3);
+}
+
+.home-carousel li, .home-carousel p {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
 }
 
 .features .icon {
