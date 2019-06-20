@@ -45,11 +45,28 @@ a:hover {
 
 /* end theme colouring */
 
+.navbar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex1 {
+  flex: 1;
+}
+
+.navbar-brand.home {
+  padding: 0;
+}
+
 @media (max-width: 767px) {
   .navbar {
     min-height: 90px;
     border-radius: 0 0 4px 4px;
   }
+  #navbar {
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 button.navbar-toggle.btn-template-main {
@@ -60,6 +77,10 @@ button.navbar-toggle.btn-template-main {
 
 #page-template p > img {
   width: 150px;
+}
+
+#blog-listing-medium {
+  margin-top: 24px;
 }
 
 .universal-bar.background-image-fixed-2 {
