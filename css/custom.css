@@ -1,5 +1,8 @@
 /* your styles go here */
-
+html {
+  font-size: 16px!important;
+  line-height: 1.7
+}
 /* theme colouring */
 a {
   color: #ED872B;
